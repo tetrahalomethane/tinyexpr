@@ -1,0 +1,48 @@
+# TinyExpr Library data types
+te_expr			KEYWORD1
+te_variable		KEYWORD1
+
+
+# Members of te_expr data type
+# (however, it's members won't likely be 
+#   accessed from user's code)
+#type			KEYWORD1
+#value			KEYWORD1
+#bound			EYWORD1
+#function		KEYWORD1
+#parameters		KEYWORD1
+
+
+# Members of te_variable data type
+name			KEYWORD1
+address			KEYWORD1
+type			KEYWORD1
+context			KEYWORD1
+
+
+# TinyExpr Library constants
+TE_VARIABLE		LITERAL1
+TE_FUNCTION0	LITERAL1
+TE_FUNCTION1	LITERAL1
+TE_FUNCTION2	LITERAL1
+TE_FUNCTION3	LITERAL1
+TE_FUNCTION4	LITERAL1
+TE_FUNCTION5	LITERAL1
+TE_FUNCTION6	LITERAL1
+TE_FUNCTION7	LITERAL1
+TE_CLOSURE0		LITERAL1
+TE_CLOSURE1		LITERAL1
+TE_CLOSURE2		LITERAL1
+TE_CLOSURE3		LITERAL1
+TE_CLOSURE4		LITERAL1
+TE_CLOSURE5		LITERAL1
+TE_CLOSURE6		LITERAL1
+TE_CLOSURE7		LITERAL1
+TE_FLAG_PURE	LITERAL1
+
+
+# TinyExpr Library methods & functions
+te_interp		KEYWORD2
+te_compile		KEYWORD2
+te_eval			KEYWORD2
+te_print		KEYWORD2
